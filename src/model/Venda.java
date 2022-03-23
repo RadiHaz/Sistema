@@ -7,7 +7,7 @@ import java.util.List;
 public class Venda {
 	
 	private LocalDate dataEmissao;
-	private double valorTotal;
+	private Double valorTotal;
 	private Cliente cliente;
 	private List<ItemVenda> itensVenda;
 	
@@ -25,10 +25,10 @@ public class Venda {
 	public void setDataEmissao(LocalDate dataEmissao) {
 		this.dataEmissao = dataEmissao;
 	}
-	public double getValorTotal() {
+	public Double getValorTotal() {
 		return valorTotal;
 	}
-	public void setValorTotal(double valorTotal) {
+	public void setValorTotal(Double valorTotal) {
 		this.valorTotal = valorTotal;
 	}
 	public Cliente getCliente() {

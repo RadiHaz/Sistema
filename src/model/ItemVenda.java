@@ -3,7 +3,7 @@ package model;
 public class ItemVenda {
 	
 	private int qtde;
-	private double valorTotal;
+	private Double valorTotal;
 	private Produto produto;
 	
 	public ItemVenda(int qtde, Produto produto) {
@@ -29,10 +29,10 @@ public class ItemVenda {
 	public void setProduto(Produto produto) {
 		this.produto = produto;
 	}
-	public double getValorTotal() {
+	public Double getValorTotal() {
 		return valorTotal;
 	}
-	public void setValorTotal(double valorTotal) {
+	public void setValorTotal(Double valorTotal) {
 		this.valorTotal = valorTotal;
 	}
 
